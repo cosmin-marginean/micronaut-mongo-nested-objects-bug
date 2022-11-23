@@ -5,7 +5,7 @@ import jakarta.inject.Inject
 import org.junit.jupiter.api.Test
 import org.slf4j.LoggerFactory
 
-@MicronautTest(transactional = false)
+@MicronautTest
 class BugTest {
 
     @Inject
