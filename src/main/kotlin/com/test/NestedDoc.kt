@@ -17,8 +17,5 @@ data class NestedDoc(
 @Serdeable
 data class Child(
     val name: String = UUID.randomUUID().toString(),
-
-    @field:Id
-    val id: String = UUID.randomUUID().toString()
 )
 
